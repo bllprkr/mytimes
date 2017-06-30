@@ -1,0 +1,127 @@
+
+
+header {
+  display:flex;
+  position: fixed;
+  border-bottom: 1px solid black;
+  padding-bottom: 10px;
+  font-family: Verdana;
+  font-size: 14px;
+  font-weight: bold;
+  justify-content: space-between;
+  align-items: center;
+  top:0px;
+  background-color: white;
+  width: 100%;
+}
+
+header nav {
+  margin-right: 20px;
+}
+
+nav a {
+  padding-right: 20px;
+  color: black;
+}
+
+header h2 {
+  font-family: Verdana;
+  font-size: 14px;
+  color:MediumAquamarine;
+  padding-left: 10px;
+}
+
+#logo{
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+
+/* this is the css to set out the main articles */
+.main {
+  display: flex;
+  justify-content: center;
+  border: 1px solid black;
+  margin-top: 80px;
+
+}
+
+.image {
+  border: 1px solid black;
+    display:flex;
+    font-family: Georgia;
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.image.mother{
+  background-image: url("img-story-main.png");
+  display: flex;
+  height:200px;
+  align-items: center;
+
+}
+
+.image.cats {
+  background-image: url("img-story-1.png");
+  height:200px;
+  align-items: center;
+}
+
+.image.earth {
+  background-image: url("img-story-2.png");
+  height:200px;
+  align-items: center;
+}
+
+.image.hipster {
+  background-image: url("img-story-3.png");
+  height:200px;
+  align-items: center;
+}
+
+.bottom {
+  display:inline-flex;
+  flex-direction: row;
+}
+
+.bottom-col {
+  width:300px;
+}
+
+
+.headline {
+
+  font-family: Georgia;
+  font-weight: bold;
+  font-size: 40px;
+  color: white;
+}
+
+section {
+  display: flex;
+  border: 1px solid black;
+  flex-direction: column;
+  flex-shrink: 0;
+
+}
+
+article {
+  border: 1px solid black;
+  font-family: Georgia;
+  font-size: 17px;
+  color: black;
+}
+
+section.large {
+  width: 630px;
+}
+
+section.medium {
+  width: 300px;
+}
+
+section.small {
+  width: 240px;
+}
