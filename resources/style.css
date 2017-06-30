@@ -41,13 +41,14 @@ header h2 {
 .main {
   display: flex;
   justify-content: center;
-  border: 1px solid black;
-  margin-top: 80px;
+
+  margin-top: 70px;
+  padding-top:20px;
 
 }
 
 .image {
-  border: 1px solid black;
+
     display:flex;
     font-family: Georgia;
     font-weight: bold;
@@ -84,6 +85,8 @@ header h2 {
 .bottom {
   display:inline-flex;
   flex-direction: row;
+  justify-content: space-around;
+  margin: 20px 0px 40px 0px;
 }
 
 .bottom-col {
@@ -101,14 +104,15 @@ header h2 {
 
 section {
   display: flex;
-  border: 1px solid black;
+
   flex-direction: column;
   flex-shrink: 0;
+  padding-right:20px;
 
 }
 
 article {
-  border: 1px solid black;
+
   font-family: Georgia;
   font-size: 17px;
   color: black;
