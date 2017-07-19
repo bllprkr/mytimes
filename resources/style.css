@@ -9,6 +9,7 @@ header {
   position: fixed;
   border-bottom: 1px solid black;
   padding-bottom: 10px;
+
   font-family: Verdana;
   font-size: 14px;
   font-weight: bold;
@@ -90,6 +91,7 @@ header h2 {
 .main {
   display: flex;
   justify-content: center;
+  
 
   margin-top: 70px;
   padding-top:20px;
@@ -165,7 +167,21 @@ article {
   font-family: Georgia;
   font-size: 17px;
   color: black;
+  margin: 10px;
+
 }
+
+article.menu p{
+  background-color: #E8E3E3;
+  list-style: none inside none;
+  padding:8px;
+  border-bottom: 1px solid black;
+  color:gray;
+  font-size: 15px;
+
+}
+
+
 
 section.large {
   width: 630px;
